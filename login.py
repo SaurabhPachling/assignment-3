@@ -7,7 +7,7 @@ def home():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        if username == 'monu' and password == 'monu':
+        if username == 'saurabh' and password == 'saurabh':
             return redirect(url_for("name"))
         else:
             return "Login failed"
